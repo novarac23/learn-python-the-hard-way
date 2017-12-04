@@ -1,7 +1,8 @@
-print("Mary had a little lamv")
-print("its pretty aweome to {}".format("do python"))
-print("s == s" * 10)
+print("Marry had a little lamb")
+print("*" * 10)
 
-first_name = "Nikola"
-last_name = "Novakovic"
-print(first_name + " " + last_name)
+end1 = "C"
+end2 = "H"
+
+print(end1 + end2, end=' ')
+print("stuff")
