@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+{% if greeting %}
+  hey {{greeting}}
+{% else %}
+hello world
+{% endif %}
+
+{% endblock %}
+
+<html>
+  <head>
+    <title> Awesome game </title>
+  </head>
+  <body>
+    {% if greeting %}
+      <h1>{{ greeting }}<h1>
+    {% else %}
+      <h1> hello </h1>
+    {% endif %}
+  </body>
+</html>
